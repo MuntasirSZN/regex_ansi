@@ -1,0 +1,19 @@
+[package]
+name = "regex_ansi"
+version = "0.1.0"
+edition = "2021"
+license = "MIT"
+description = "ANSI escape sequence regular expression (Rust port of ansi-regex behavior)"
+repository = "https://github.com/MuntasirSZN/regex_ansi"
+readme = "README.md"
+keywords = ["ansi", "color", "terminal", "escape", "regex"]
+categories = ["text-processing", "parsing"]
+
+[lib]
+name = "regex_ansi"
+path = "src/lib.rs"
+
+[dependencies]
+regex = "1"
+
+[dev-dependencies]
