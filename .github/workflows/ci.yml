@@ -20,7 +20,7 @@ jobs:
         run: cargo build --all --verbose
       - name: Test
         run: |
-          cargo install cargo-nextest
+          cargo install cargo-nextest --locked
           cargo nextest run
           cargo test --doc
       - name: Clippy
